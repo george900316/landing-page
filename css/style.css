@@ -1,0 +1,166 @@
+body {
+	margin: 0 0;
+}
+
+.container {
+	margin: 0 100px;
+}
+
+.icon {
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+}
+
+.home {
+	text-decoration: none;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 960px;
+}
+
+.join {
+	text-decoration: none;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+}
+
+.contactme {
+	text-decoration: none;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+}
+
+.icon p {
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+}
+
+.icon img {
+	width: 70px;
+	padding: 0 10px;
+	object-fit: contain;
+}
+
+.slogan {
+	background-color: #C0C0C0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 90px;
+}
+
+.slogan p {
+	font-family: 'Amatic SC', cursive;
+	font-size: 70px;
+	font-size: 100px;
+	color: white;
+	margin: 0 0;
+	padding: 150px 0;
+}
+
+.red {
+	color: #D90E00!important;
+}
+
+.clothes {
+	width: 700px;
+	object-fit: contain;
+}
+
+.coupon {
+	display: flex;
+	flex-direction: row;
+}
+
+.coupon p {
+	font-family: 'Amatic SC', cursive;
+	font-size: 70px;
+	justify-content: center;
+	margin: auto;
+}
+
+.buttom {
+	font-family: 'Amatic SC', cursive;
+	text-decoration:none;
+	font-size: 40px;
+	border: solid 2px darkblue;
+	padding: 9px;
+	border-width: 2px 3px 2px 3px;
+	border-radius: 9% 6% 93% 5% / 5% 4% 7% 95%;
+}
+
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-image: url(../img/contact.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#ffffff;
+	font-family:  'Amatic SC', cursive;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #4F4F4F;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+.text-center {
+	display: flex;
+  	justify-content: center;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
